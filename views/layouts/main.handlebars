@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quản lý Sách</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 30px auto; padding: 0 16px; }
+    form input { padding: 6px; margin: 4px 4px 4px 0; }
+    button { padding: 7px 14px; cursor: pointer; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #f2f2f2; }
+    .error { color: #c00; font-weight: bold; }
+    footer { margin-top: 40px; text-align: center; color: #555; }
+  </style>
+</head>
+<body>
+  {{{body}}}
+  <footer>
+    <hr>
+    <p><b>{{student.name}}</b> - {{student.mssv}} - VAT áp dụng: <b>{{vat}}%</b></p>
+    <small>Số lần truy cập trong phiên (lưu trên MongoDB Atlas): {{visits}}</small>
+  </footer>
+</body>
+</html>
